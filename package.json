@@ -6,6 +6,10 @@
   "repository": "https://github.com/boinfra/fb-uploader",
   "author": "boinfra <franck.boinay@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp"
+  },
   "devDependencies": {
     "del": "^6.0.0",
     "gulp": "^4.0.2",

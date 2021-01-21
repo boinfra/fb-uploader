@@ -1,0 +1,19 @@
+$uploader-background: #ccc;
+
+.uploader {
+	width: 100%;
+	height: 100%;
+	
+	border: 4px dashed #000;
+	border-radius: 15px;
+	
+	background: $uploader-background;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&.hover {
+		background: darken($uploader-background, 10);
+	}
+}

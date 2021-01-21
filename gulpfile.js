@@ -1,4 +1,4 @@
-const { src, dest, series, parallel, watch, lastRun } = require('gulp')
+const { src, dest, series, parallel, watch } = require('gulp')
 const ts = require('gulp-typescript')
 const del = require('del')
 const sass = require('gulp-sass')
@@ -10,7 +10,8 @@ function clean() {
 function js() {
 	return src('src/**/*.ts')
 		.pipe(ts({
-			outFile: 'fb-uploader.js'
+			outFile: 'fb-uploader.js',
+			module: 'commonjs'
 		}))
 		.pipe(dest('dist/js'))
 }
