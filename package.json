@@ -1,0 +1,16 @@
+{
+  "name": "fb-uploader",
+  "version": "1.0.0",
+  "description": "VanillaJS file uploader by drag n'drop",
+  "main": "index.js",
+  "repository": "https://github.com/boinfra/fb-uploader",
+  "author": "boinfra <franck.boinay@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^4.1.3"
+  }
+}
