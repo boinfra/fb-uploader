@@ -45,7 +45,8 @@
 		req.open('POST', uploadUrl)
 		req.send(new FormData(form))
 		req.onload = () => {
-			console.log('Upload done')
+			const event = new CustomEvent('uploaded', { detail: { success: req.status == 200, message: req.status == 200 ? 'Upload successful' : 'Upload failed', response: JSON.parse(req.response) } })
+			element.dispatchEvent(event)
 		}
 	}
 
