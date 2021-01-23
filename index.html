@@ -21,5 +21,11 @@
 		<fb-uploader data-upload-url="http://localhost:1337/upload"/>
 	</div>
 	<script type="text/javascript" src="/dist/js/index.js"></script>
+	<script type="text/javascript">
+		const uploader = document.querySelector('fb-uploader')
+		uploader.addEventListener('uploaded', (e) => {
+			console.log(e.detail)
+		})
+	</script>
 </body>
 </html>
