@@ -1,6 +1,6 @@
 {
   "name": "@boinfra/fb-uploader",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "VanillaJS file uploader by drag n'drop",
   "main": "index.js",
   "repository": {
