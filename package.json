@@ -1,9 +1,12 @@
 {
-  "name": "fb-uploader",
-  "version": "1.0.0",
+  "name": "@boinfra/fb-uploader",
+  "version": "1.0.5",
   "description": "VanillaJS file uploader by drag n'drop",
   "main": "index.js",
-  "repository": "https://github.com/boinfra/fb-uploader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boinfra/fb-uploader.git"
+  },
   "author": "boinfra <franck.boinay@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -16,5 +19,13 @@
     "gulp-minify": "^3.1.0",
     "gulp-sass": "^4.1.0",
     "typescript": "^4.1.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/boinfra/fb-uploader/issues"
+  },
+  "homepage": "https://github.com/boinfra/fb-uploader#readme",
+  "dependencies": {},
+  "keywords": [
+    "uploader"
+  ]
 }
