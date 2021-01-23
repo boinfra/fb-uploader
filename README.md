@@ -19,5 +19,20 @@ npm i @boinfra/fb-uploader
 	</div>
 	...
 	<script type="text/javascript" src="/path/to/fb-uploader/js/index.js"></script>
+		<script type="text/javascript">
+		const uploader = document.querySelector('fb-uploader')
+		uploader.addEventListener('uploaded', (e) => {
+			console.log(e.detail)
+		})
+	</script>
 </body>
+```
+
+```uploaded``` event's details have the following structure:
+```
+{
+	success: boolean,
+	message: string,
+	response: object
+}
 ```
